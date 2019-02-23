@@ -1,0 +1,45 @@
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Sorting</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/sort.css">
+
+    </head>
+
+    <body>
+        <form>
+            <div class="form-group">
+                <label for="arrLen">The size of the array：</label>
+                <input name="arrLen" class="form-control" value = '10'>
+                <input value = 'Create Array' id="createArr" class="btn btn-primary" type="button">
+            </div>
+            <div class="form-group">
+                <label for="arr">Array：</label><textarea name="arr" class="form-control num-input" rows="5"></textarea>
+            </div>
+
+            <div class="form-group sortBtn">
+                <label for="arr">Sort:</label>
+                <input id="bubble" value="Bubble" class="btn btn-light" type="button">
+                <input id="insert" value="Insert" class="btn btn-light" type="button">
+                <input id="select" value="Select" class="btn btn-light" type="button">
+                <input id="quick" value="Quick" class="btn btn-light" type="button">
+            </div>
+        </form>
+        <ul class="sort_ul"></ul>
+
+        <script src="http://apps.bdimg.com/libs/jquery/1.8.1/jquery.min.js"></script>
+
+        <script src="js/selectSort.js"></script>
+        <script src="js/insertSort.js"></script>
+        <script src="js/mergeSort.js"></script>
+        <script src="js/shellSort.js"></script>
+        <script src="js/quickSort.js"></script>
+        <script src="js/quickSort2.js"></script>
+        <script src="js/bubbleSort.js"></script>
+        <script src="js/animation.js"></script>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+	
+body{
+    margin: 20px; 
+}
+ul,li{
+    list-style: none;
+    margin-left: 5px;
+    padding: 0;
+}
+input[type=button]{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sort_ul{
+    border: 1px solid #ccc;
+    height: 350px;
+    width: 1000px;
+
+}
+.sort_li{
+    float: left;
+    width: 10px;
+    height: 100%;
+    margin-right: 3px;
+    position: relative;
+}
+.sort_span{
+    width: 100%;
+    display: block;
+    height: 50%;
+    background: #ddd;
+}
+.sort_span_blue{
+    background: black;
+}
+.sort_span_green{
+    background: green;
+}
+.sort_span_tag{
+    background: red;
+}
+.sort_span_in{
+    width: 100%;
+    display: block;
+    background: red;
+    position: absolute;
+    top: 0;
+
+}
+
+.sorting_btn{
+    margin:20px; 
+    background-color: green;
+    color: #fff;
+    border: 1px solid green;
+}
+
+form{
+    font-size: 12px;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.form-control{
+    /*	line-height: 32px;
+    height: 32px;*/
+}
+.num-input{
+    width: 600px;
+}
